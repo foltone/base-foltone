@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+body,html {
+  height: 100%;
+}
+
+body {
+	background: #141414 url('../img/back.png') center center / cover no-repeat;
+}
+
+.statusBar {
+	margin-bottom: 70px;
+}
+
+.statusBar .statusPreText {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #f2f2f2;
+	letter-spacing: 1px;
+}
+
+.statusProgress .progress-container {
+	height: 30px;
+	border: 2px solid rgba(255,255,255,.1);
+	border-radius: 20px;
+	padding: 3px;
+	background: transparent;
+}
+
+.statusProgress .progress-custom {
+	border-radius: 20px;
+	box-shadow: 0 0 3px #1C1F58;
+	border: 1px solid #1C1F58;
+}
+
+.bg-baires {
+	background-color: #1C1F58;
+}
+
+.text-baires {
+	color: #1C1F58;
+}

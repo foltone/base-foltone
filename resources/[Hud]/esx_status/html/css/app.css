@@ -1,0 +1,59 @@
+#status_list {
+	position: absolute;
+	right   : 70%;
+	bottom : 5%;
+	width  : 13.0%;
+	opacity: 1.0;
+}
+
+.status {
+	padding-left: 0.0px;
+	margin: 0.3em;
+	background-color: rgba(102, 102, 102, 0.5);
+	border-radius: 4px;
+}
+
+.status_inner {
+	padding: 0.2px;
+	border-radius: 4px;
+}
+
+.status_val {
+	height : 14px;
+}
+
+.fas.fa-tint {
+	position: absolute;
+	right   : 83.25%;
+	bottom : 5.65%;
+	opacity: 1.0;
+}
+
+.fas.fa-hamburger {
+	position: absolute;
+	right   : 83.18%;
+	bottom : 7.8%;
+	opacity: 1.0;
+}
+
+.rectangle {
+	position: absolute;
+	right   : 83%;
+	bottom : 5.5%;
+	width  : 1%;
+	height : 18px;
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);
+	opacity: 1.0;
+}
+
+.rectangle2 {
+	position: absolute;
+	right   : 83%;
+	bottom : 7.6%;
+	width  : 1%;
+	height : 18px;
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);
+	opacity: 1.0;
+}

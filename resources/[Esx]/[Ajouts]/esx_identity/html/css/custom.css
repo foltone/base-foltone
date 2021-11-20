@@ -1,0 +1,9 @@
+.radio {
+    text-align: center;
+    color: white;
+}
+
+#size {
+    -webkit-appearance: none;
+    margin: 0;
+}

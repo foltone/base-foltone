@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+
+		<Item>
+			<lockHash>CU_VEH_rmodmi8lb</lockHash>
+			<modelNameHash>rmodmi8lb</modelNameHash>
+			<cost value="100"/>
+			<textLabel>rmodmi8lb</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+
+
+	</Vehicles>	
+</ShopVehicleDataArray>
