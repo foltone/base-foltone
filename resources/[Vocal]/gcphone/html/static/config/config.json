@@ -123,7 +123,7 @@
 
   "serviceCall": [{
     "display": "L.S.P.D",
-    "icon": "https://i.imgur.com/gMdFkk6.jpg",
+    "icon": "/html/static/img/icons_app/lspdl.png",
     "subMenu": [{
         "title": "Envoyer un message",
         "eventName": "esx_addons_gcphone:call",
@@ -134,11 +134,33 @@
     ]
   },
 
+  {
+
+    "display": "L.S.S.D",
+
+    "icon": "https://cdn.discordapp.com/attachments/909115551731814421/911924790661640212/lssdl.png",
+
+    "subMenu": [{
+
+      "title": "Envoyer un message",
+
+      "eventName": "esx_addons_gcphone:call",
+
+      "type": {
+
+        "number": "sheriff"
+
+      }
+
+    }]
+
+  },
+
     {
 
       "display": "E.M.S",
 
-      "icon": "https://i.imgur.com/pMe8CsO.png",
+      "icon": "https://cdn.discordapp.com/attachments/909115551731814421/911924731014447104/emsl.png",
 
       "subMenu": [{
 
@@ -160,7 +182,7 @@
 
       "display": "Mécano",
 
-      "icon": "https://i.imgur.com/iL1h6ry.jpg",
+      "icon": "/html/static/img/icons_app/mechanic.png",
 
       "subMenu": [{
 
@@ -179,69 +201,6 @@
     }
 
   ],
-
-
-
-
-  "defaultContacts": [{
-
-    "number": "ambulance",
-
-    "display": "L.S.M.S",
-
-    "eventName": "esx_addons_gcphone:call",
-
-    "icon": "/html/static/img/icons_app/lsmsl.png"
-
-  },
-
-  {
-
-    "number": "police",
-
-    "display": "LSPD",
-
-    "eventName": "esx_addons_gcphone:call",
-
-    "icon": "/html/static/img/icons_app/lspdl.png"
-
-  },
-
-  {
-
-    "number": "fbi",
-
-    "display": "FBI",
-
-    "eventName": "esx_addons_gcphone:call",
-
-    "icon": "/html/static/img/icons_app/fbilogo.png"
-
-  },
-
-  {
-
-    "number": "mechanic",
-
-    "display": "Mécano",
-
-    "eventName": "esx_addons_gcphone:call",
-
-    "icon": "/html/static/img/icons_app/mechanic.png"
-
-  },
-  {
-
-    "number": "macdojob",
-
-    "display": "Mc Donald's",
-
-    "eventName": "esx_addons_gcphone:call"
-
-  }
-
-],
-
 
   "apps": [{
 
