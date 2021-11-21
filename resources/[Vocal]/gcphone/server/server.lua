@@ -2,7 +2,10 @@
 -- #Author: Jonathan D @Gannon
 -- #Version 2.0
 --====================================================================================
-
+TriggerEvent('esx_phone:registerNumber', 'police', 'alerte police', true, true)
+TriggerEvent('esx_phone:registerNumber', 'ambulance', 'alerte ambulance', true, true)
+TriggerEvent('esx_phone:registerNumber', 'sheriff', 'alerte sheriff', true, true)
+TriggerEvent('esx_phone:registerNumber', 'mechanic', 'alerte mechanic', true, true)
 math.randomseed(os.time()) 
 
 --- Pour les numero du style XXX-XXXX
