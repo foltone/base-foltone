@@ -3,7 +3,7 @@ Gang = {
         GangName = "Vagos", -- Nom du Gang
         JobGangName = "vagos", -- Nom du set job Gang
         Garage = { -- Garage
-            GradeJobAcces = {"pequeno", "asistente", "teniente", "soldado", "segundo", "boss"}, -- Grade du job qui a accès au garage
+        GradeJobAcces = {"habitants", "dealers", "bras", "boss"}, -- Grade du job qui a accès au garage
             PosDeleter = vector3(327.96, -2027.72, 21.07), -- Position du point pour ranger les véhicules
             PosSpawner = vector3(316.47, -2031.82, 20.56), -- Position du point sortir les véhicules
             Vehicule = { -- Vehicule dans le garage
@@ -13,18 +13,18 @@ Gang = {
             },
         },
         BossAction = { -- Action Patron
-            GradeJobAcces = {"segundo", "boss"}, -- Grade du job qui a accès aux actions patron
+            GradeJobAcces = {"boss"}, -- Grade du job qui a accès aux actions patron
             PosBoss = vector3(343.23, -2028.14, 22.35), -- Position du point action patron
             SocietyAction = "society_vagos", -- Nom de la societe pour l'argent gang
             ArgentType = "black_money", -- Argent à déposer/récupérer du gang (bank/money/black_money)
         },
         Coffre = { -- Coffre
-            GradeJobAcces = {"pequeno", "asistente", "teniente", "soldado", "segundo", "boss"}, -- Grade du job qui a accès aux actions patron
+        GradeJobAcces = {"habitants", "dealers", "bras", "boss"}, -- Grade du job qui a accès aux actions patron
             PosCoffre = vector3(332.28, -2018.77, 22.35), -- Position du point action patron
             SocietyCoffre = "society_vagos", -- Nom de la societe pour l'argent gang
         },
         Vestiaire = {
-            GradeJobAcces = {"pequeno", "asistente", "teniente", "soldado", "segundo", "boss"}, -- Grade du job qui a accès aux actions patron
+            GradeJobAcces = {"habitants", "dealers", "bras", "boss"}, -- Grade du job qui a accès aux actions patron
             PosVestiaire = vector3(325.96, -2050.70, 20.93), -- Position du point action patron
             Tenue = {
                 {
@@ -117,7 +117,7 @@ Gang = {
             SocietyCoffre = "society_ballas", -- Nom de la societe pour l'argent gang
         },
         Vestiaire = {
-            GradeJobAcces = {"pequeno", "asistente", "teniente", "soldado", "segundo", "boss"}, -- Grade du job qui a accès aux actions patron
+            GradeJobAcces = {"habitants", "dealers", "bras", "boss"}, -- Grade du job qui a accès aux actions patron
             PosVestiaire = vector3(325.96, -2050.70, 20.93), -- Position du point action patron
             Tenue = {
                 {
@@ -179,7 +179,7 @@ Gang = {
             SocietyCoffre = "society_marabunta", -- Nom de la societe pour l'argent gang
         },
         Vestiaire = {
-            GradeJobAcces = {"pequeno", "asistente", "teniente", "soldado", "segundo", "boss"}, -- Grade du job qui a accès aux actions patron
+            GradeJobAcces = {"habitants", "dealers", "bras", "boss"}, -- Grade du job qui a accès aux actions patron
             PosVestiaire = vector3(1445.3615722656, -1488.3409423828, 66.619285583496), -- Position du point action patron
             Tenue = {
                 {
@@ -241,7 +241,7 @@ Gang = {
             SocietyCoffre = "society_families", -- Nom de la societe pour l'argent gang
         },
         Vestiaire = {
-            GradeJobAcces = {"pequeno", "asistente", "teniente", "soldado", "segundo", "boss"}, -- Grade du job qui a accès aux actions patron
+            GradeJobAcces = {"habitants", "dealers", "bras", "boss"}, -- Grade du job qui a accès aux actions patron
             PosVestiaire = vector3(-157.45317077637, -1603.458984375, 35.043876647949), -- Position du point action patron
             Tenue = {
                 {
