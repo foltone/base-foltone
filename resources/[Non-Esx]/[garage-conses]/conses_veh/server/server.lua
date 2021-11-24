@@ -53,7 +53,7 @@ AddEventHandler('h4ci_concess:vendrevoiturejoueur', function (playerId, vehicleP
         ['@plate']   = vehicleProps.plate,
         ['@vehicle'] = json.encode(vehicleProps)
     }, function (rowsChanged)
-    TriggerClientEvent('esx:showNotification', xPlayer, "Tu as reçu la voiture ~g~"..nom.."~s~ immatriculé ~g~"..plaque.." pour ~g~" ..prix.. "$")
+    --TriggerClientEvent('esx:showNotification', xPlayer, "Tu as reçu la voiture ~g~"..nom.."~s~ immatriculé ~g~"..plaque.." pour ~g~" ..prix.. "$")
     end)
 end)
 RegisterServerEvent('shop:vehicule')
@@ -67,8 +67,8 @@ end)
         ['@plate']   = vehicleProps.plate,
         ['@vehicle'] = json.encode(vehicleProps)
     }, function(rowsChange)
-        TriggerClientEvent('esx:showNotification', xPlayer, "Tu as reçu la voiture ~g~"..nom.."~s~ immatriculé ~g~"..plaque.." pour ~g~" ..prix.. "$")
-        TriggerClientEvent('esx:showNotification', xPlayer, "Tu as reçu la voiture ~g~"..json.encode(vehicleProps).."~s~ immatriculé ~g~"..vehicleProps.plate.." pour ~g~" ..prix.. "$")
+        --TriggerClientEvent('esx:showNotification', xPlayer, "Tu as reçu la voiture ~g~"..nom.."~s~ immatriculé ~g~"..plaque.." pour ~g~" ..prix.. "$")
+        --TriggerClientEvent('esx:showNotification', xPlayer, "Tu as reçu la voiture ~g~"..json.encode(vehicleProps).."~s~ immatriculé ~g~"..vehicleProps.plate.." pour ~g~" ..prix.. "$")
     end)
 end)
 
