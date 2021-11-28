@@ -75,7 +75,7 @@ function Display(mePlayer, text, offset)
     Citizen.CreateThread(function()
         nbrDisplaying = nbrDisplaying + 0.14
         while displaying do
-            Wait(500)
+            Wait(0)
             local coordsMe = GetEntityCoords(GetPlayerPed(mePlayer), false)
             local coords = GetEntityCoords(PlayerPedId(), false)
             local dist = Vdist2(coordsMe, coords)
